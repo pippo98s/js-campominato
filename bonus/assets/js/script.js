@@ -15,7 +15,7 @@ difficoltà 2=> da 1 a 50 */
 
 // difficoltà selezionata
 var personaIntelligente = false;
-while(test == false){
+while (personaIntelligente == false){
   var diff = parseInt(prompt("scegli il livello : 0(1-100)/ 1(1-80)/ 2(1-50)"));
   if(isNaN(diff) || diff < 0 || diff > 2){
     alert("valore inserito non corretto");
